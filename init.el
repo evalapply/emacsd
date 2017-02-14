@@ -123,6 +123,9 @@
 ;; These customizations make editing a bit nicer.
 (load "editing.el")
 
+;; Key bindings for magit
+(load "magit-key-bindings.el")
+
 ;; Hard-to-categorize customizations
 (load "misc.el")
 
