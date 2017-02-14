@@ -4,11 +4,17 @@
 ;; a matter of preference and may require some fiddling to match your
 ;; preferences
 
-;; Turn off the menu bar at the top of each frame because it's distracting
+;; Turn off the menu bar and tool bar at the top of each frame (distracting)
 (menu-bar-mode -1)
+(tool-bar-mode -1)
 
 ;; Show line numbers
-(global-linum-mode)
+;;(global-linum-mode)
+
+;; Show row and column
+(setq line-number-mode t)
+(setq column-number-mode t)
+
 
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
