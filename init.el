@@ -69,9 +69,9 @@
 
     ;; git integration
     magit
-
-    ;; for git blame
     mo-git-blame
+
+    cython-mode
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
