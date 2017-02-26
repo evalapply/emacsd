@@ -68,6 +68,9 @@
 ;; No current line highlighting
 (global-hl-line-mode 0)
 
+;; Highlight trailing whitespace
+(setq-default show-trailing-whitespace t)
+
 ;; full path in title bar
 (setq-default frame-title-format "%b (%f)")
 
